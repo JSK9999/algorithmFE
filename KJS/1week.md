@@ -30,3 +30,32 @@ function solution(a, b) {
     return answer;
 }
 ```
+
+# yeu 1주차 반복 되는 패턴을 찾아보자 
+```javascript
+function solution(str) {
+
+
+//한칸씩 잘라서 저장하고 저장한만큼 문자열을 잘라내고 
+//저장된 문자열을 잘라진 문자열과 저장된 문자열의 길이만큼 비교 해서 같을 때 까지 반복    
+   let result ; 
+// i 가 1이면 2차 검증에서 바로 같은 단어나오면 안댐  ex) aa1234aa1234 이런형태면 aa로 잘림
+// 이건 로직이 약하니까 추후 수정 할 필요가 있음  
+   let i = 2;
+   while(true){
+   a = str.substring(0,i)
+   let c = str.substring(i,str.length)
+   let d = c.substring(0,i)
+   
+   if(a === d){
+      result =a
+      break
+   }
+   i++;
+   }
+
+console.log(str)
+console.log(result)
+  return result
+}
+```
