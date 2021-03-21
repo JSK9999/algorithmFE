@@ -1,7 +1,7 @@
 # 1주차 프로그래머스 문제 2016년
 
 
-```javascrtipt 
+```javascript
 function solution(a, b) {
 //타임어택이아니니까
 //Date객체를 일부러 쓸 필요는 없는것 같다 Date객체쓰면 그냥 1~2줄이면 될듯;
