@@ -31,7 +31,8 @@ function solution(a, b)
 //Ref : https://www.timeanddate.com/calendar/months/
 ```
 
-Second : 
+Second : https://yeu.kr/76ykz
+```javascript
 
 // hyunjin.direct@gmail.com
 //https://yeu.kr/76ykz
@@ -51,11 +52,6 @@ const constructBadMatchTable = (pattern) => {
     }
     return map;
 }
-Second : https://yeu.kr/76ykz
-```javascript
-// hyunjin.direct@gmail.com
-//https://yeu.kr/76ykz
-//reference : https://www.pohkeeheng.com/notes/Boyer-Moore-Horspool-algorithm-in-Javascript
 
 const search = (string, pattern) => {
     const badMatchTable = constructBadMatchTable(pattern);
