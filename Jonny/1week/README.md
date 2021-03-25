@@ -1,7 +1,5 @@
 First : https://programmers.co.kr/learn/courses/30/lessons/12901
 ```javascript
-//Created : hyunjin.gil (hyunjin.direct@gmail.com)
-
 function solution(a, b) 
 {
     var answer = '';
@@ -34,7 +32,6 @@ function solution(a, b)
 Second : https://yeu.kr/76ykz
 ```javascript
 
-// hyunjin.direct@gmail.com
 //https://yeu.kr/76ykz
 //reference : https://www.pohkeeheng.com/notes/Boyer-Moore-Horspool-algorithm-in-Javascript
 
