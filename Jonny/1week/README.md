@@ -97,3 +97,22 @@ function solution(str)
    return str;
 }
 ```
+
+```javascript
+String.prototype.replaceAll = function(org, dest) {
+    return this.split(org).join(dest);
+}
+
+function solution(str) {
+   console.log(str);
+   for(var i = 0; i < str.length; ++i)
+   {
+      var pattern = str.substr(0,i);
+      var temp = str.replaceAll(pattern, "");
+      if(temp.length == 0)
+         return pattern;
+   }
+   return str;
+}
+
+```
