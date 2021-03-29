@@ -103,7 +103,7 @@ String.prototype.replaceAll = function(org, dest) {
     return this.split(org).join(dest);
 }
 
-function GetCount(str)
+function GetDivisor(str)
 {
    var n = str.length;
    var temp = [];
@@ -125,7 +125,7 @@ function GetCount(str)
 
 function solution(str) 
 {
-   var counts = GetCount(str);
+   var counts = GetDivisor(str);
    console.log(counts);
    for(var i = 0; i < counts.length; ++i)
    {
