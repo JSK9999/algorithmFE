@@ -103,16 +103,40 @@ String.prototype.replaceAll = function(org, dest) {
     return this.split(org).join(dest);
 }
 
-function solution(str) {
-   console.log(str);
-   for(var i = 0; i < str.length; ++i)
+function GetCount(str)
+{
+   var n = str.length;
+   var temp = [];
+
+   for(var i= 1; i*i<n; ++i)
    {
-      var pattern = str.substr(0,i);
-      var temp = str.replaceAll(pattern, "");
-      if(temp.length == 0)
+      if(n%i==0)
+      {
+         temp.push(i);
+         temp.push(n/i);
+      }
+   }
+   if(i*i == n)
+      temp.push(i);
+   temp.sort(function(a, b){return a - b});
+
+   return temp;
+}
+
+function solution(str) 
+{
+   var counts = GetCount(str);
+   console.log(counts);
+   for(var i = 0; i < counts.length; ++i)
+   {
+      var pattern = str.substr(0,counts[i]);
+      var replace = str.replaceAll(pattern, "");
+      if(replace.length == 0)
          return pattern;
    }
+
    return str;
 }
+
 
 ```
