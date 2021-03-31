@@ -1,7 +1,5 @@
 First : https://programmers.co.kr/learn/courses/30/lessons/12901
 ```javascript
-//Created : hyunjin.gil (hyunjin.direct@gmail.com)
-
 function solution(a, b) 
 {
     var answer = '';
@@ -34,7 +32,6 @@ function solution(a, b)
 Second : https://yeu.kr/76ykz
 ```javascript
 
-// hyunjin.direct@gmail.com
 //https://yeu.kr/76ykz
 //reference : https://www.pohkeeheng.com/notes/Boyer-Moore-Horspool-algorithm-in-Javascript
 
@@ -99,4 +96,47 @@ function solution(str)
    
    return str;
 }
+```
+
+```javascript
+String.prototype.replaceAll = function(org, dest) {
+    return this.split(org).join(dest);
+}
+
+function GetDivisor(str)
+{
+   var n = str.length;
+   var temp = [];
+
+   for(var i= 1; i*i<n; ++i)
+   {
+      if(n%i==0)
+      {
+         temp.push(i);
+         temp.push(n/i);
+      }
+   }
+   if(i*i == n)
+      temp.push(i);
+   temp.sort(function(a, b){return a - b});
+
+   return temp;
+}
+
+function solution(str) 
+{
+   var counts = GetDivisor(str);
+   console.log(counts);
+   for(var i = 0; i < counts.length; ++i)
+   {
+      var pattern = str.substr(0,counts[i]);
+      var replace = str.replaceAll(pattern, "");
+      if(replace.length == 0)
+         return pattern;
+   }
+
+   return str;
+}
+
+
 ```
