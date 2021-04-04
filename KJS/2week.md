@@ -24,6 +24,7 @@ function solution(n) {
 function solution(string) {
    
   const icons = [...string]
+  //reduce 사용하여 겹치는거 없이 1개씩만 나오도록
   const convert = icons.reduce((acc,curr)=>{
      if(!acc.includes(curr)){
         acc.push(curr)
