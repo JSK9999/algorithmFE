@@ -3,7 +3,7 @@
 ```javascript 
 function solution(line, circle, screensize, width, centerx, centery) {
 
-   //너비 3 높이 2 => 5
+   //너비 3 높이 2 => 6
    const widthX = (width / 6) * 3
    const widthY = (width /6) * 2
    console.log(widthY, centery)
