@@ -55,3 +55,19 @@ function solution(string) {
    return answer;
 }
 ```
+2. programmers 가운데 글자 가져오기
+- https://programmers.co.kr/learn/courses/30/lessons/12903
+```javascript
+function solution(s) {
+    var answer = '';
+
+    if((s.length % 2) == 0)
+    {
+        answer += s[s.length/2 - 1];
+        answer += s[s.length/2];
+    }
+    else{
+        answer += s[Math.ceil(s.length/2 - 1)];
+    }
+    return answer;
+}
