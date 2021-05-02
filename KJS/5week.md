@@ -8,14 +8,13 @@ if(length >= string.length - start ){
     length = string.length -start
 }
    for(let i = start ; i < length +start ; i++){
-      console.log(string[i])
       answer += string[i]
    }
 
 return answer;
 }
 ```
-
+### 시간복잡도 O(n)
 
 
 # 프로그래머스  https://programmers.co.kr/learn/courses/30/lessons/12912?language=javascript
@@ -46,4 +45,6 @@ function solution(a, b) {
     
 }
 ```
+### 시간복잡도 = O(n)
+
 ![image](https://user-images.githubusercontent.com/43168019/116808932-82918e80-ab76-11eb-9372-49d670c948dd.png)
