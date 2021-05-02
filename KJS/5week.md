@@ -46,3 +46,4 @@ function solution(a, b) {
     
 }
 ```
+![image](https://user-images.githubusercontent.com/43168019/116808932-82918e80-ab76-11eb-9372-49d670c948dd.png)
