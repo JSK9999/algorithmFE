@@ -1,4 +1,4 @@
-//
+//https://yeu.kr/4TWp0#js
 ```javascript
 function solution(string, start, length) {
    let answer = '';
@@ -16,7 +16,7 @@ function solution(string, start, length) {
 }
 ```
 
-
+//https://programmers.co.kr/learn/courses/30/lessons/12912?language=cpp
 ```c++
 #include <bits/stdc++.h>
 
