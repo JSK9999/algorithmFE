@@ -10,9 +10,9 @@ function solution(nums) {
     //배열의 중복 원소 제거 1
     const convertsNums = nums.reduce((acc,cur)=>{
     if (acc.includes(cur)){
-    return acc;
+      return acc;
     }else {
-    acc.push(cur);
+      acc.push(cur);
     }
     return acc;
     },[])
