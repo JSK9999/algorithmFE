@@ -16,11 +16,12 @@ function solution(nums) {
          }
         return acc;
     },[])
-	//배열의 중복 원소 제거 2 - Set한방이면 바로 중복 제거 가능 심지어 훨씬 더빠름(테스트 시간 거의 절반)
+    //배열의 중복 원소 제거 2 - Set한방이면 바로 중복 제거 가능 심지어 훨씬 더빠름(테스트 시간 거의 절반)
     //난 리듀스가 더좋음 왜냐면 중간에 조건을 입맛대로 추가 할 수 있으니까 
     /*
     const convertsNums = [... new Set(nums)]
     */
+    
   if (convertsNums.length === maxPickNum || convertsNums.length < maxPickNum){
   	    answer = convertsNums.length;
      } else if (convertsNums.length > maxPickNum){
