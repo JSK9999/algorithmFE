@@ -1,0 +1,26 @@
+#programmers
+```javascript
+const solution = nums => {
+    let answer = [];
+    const max = nums.length / 2;
+
+    nums.map(num => (
+        answer.length < max && !answer.includes(num) ? answer.push(num) : num
+    ));
+    
+    return answer.length;    
+}
+```
+
+#yeu
+```javascript
+let container = document.querySelector('#container');
+var num=0;
+container.querySelector('button').onclick = function(){
+   num++;
+   
+   container.querySelector('span').innerHTML=num;
+}
+```
+
+
