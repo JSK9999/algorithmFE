@@ -8,7 +8,7 @@ function solution(nums) {
     let answer;
     const maxPickNum = nums.length/2;
     //배열의 중복 원소 제거 1
-    const convertsNums = nums.reduce((acc,cur)=>{ 
+    const convertsNums = nums.reduce((acc,cur)=>{
  	    if (acc.includes(cur)){
  		   return acc;
  		}else {
