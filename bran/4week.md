@@ -1,22 +1,20 @@
 https://yeu.kr/yrXkP#js
 ```javascript
-// 여기에 코드를 작성해주세요
-let container = document.querySelector('#container');
+ function solution() {
+   // 여기에 코드를 작성해주세요
+   class ClassYouMade {
+      constructor(first, second) {
+         this.first = first;
+         this.second = second;
 
+      }
 
-let btnElement = document.querySelector("button");
-let numElement = document.querySelector("span");
-
-let num = container.getElementsByTagName('span')[0].innerText;
-
-
- btnElement.addEventListener('click', addNum)
-
- function addNum () {
-    num++;
-    numElement.innerText = num
- }
-
+      getValue() {
+         return [this.first, this.second]
+      }
+   }
+   return ClassYouMade;
+}
 ```
 
 https://programmers.co.kr/learn/courses/30/lessons/42748?fbclid=IwAR1Fuq9TldIXlXkehNDJR5GgLnXmo09MmFkW2SJsrO-bDre8m2CGcqDj7RA
