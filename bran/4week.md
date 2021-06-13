@@ -50,3 +50,5 @@ function solution(array, commands) {
 }
 
 ```
+<img width="366" alt="Screen Shot 2021-06-13 at 8 14 51 PM" src="https://user-images.githubusercontent.com/40842018/121804982-12514f00-cc84-11eb-86b6-8e846f32b1c7.png">
+
