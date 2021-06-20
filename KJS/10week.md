@@ -1,4 +1,4 @@
-## 프로그래머스 2019 카카오 블라인드 테스트 
+# 프로그래머스 2019 카카오 블라인드 테스트 
 
 ```javascript
 function solution(record) {
@@ -35,7 +35,7 @@ function solution(record) {
 ```
 ![image](https://user-images.githubusercontent.com/43168019/122665537-c56cfb80-d1e2-11eb-853f-fe22539ee22d.png)
 
-## Yeu
+# Yeu
 
 ```javascript 
 // 여기에 코드를 작성해주세요
