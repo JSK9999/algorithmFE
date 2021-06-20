@@ -42,28 +42,32 @@ function solution(record) {
     let nickNameSet = {};
     for(let i=0; i< newArr.length; i++) {
         if(newArr[i].length === 3) {
-            nickNameSet[newArr[i][1] = newArr[i][2]] // 이부분 
+            nickNameSet[newArr[i][1]] = newArr[i][2] // 이부분 
         }
         
     }
     
-    console.log(newArr)
+     
     
     // 3. 출력 
     for(let i=0; i<newArr.length; i++) {
         if(newArr[i][0] === 'Enter') {
-            str += `${newArr[i][2]} 님이 들어왔습니다.`;
+            // str += `${newArr[i][2]} 님이 들어왔습니다.`;
+            answer.push(nickNameSet[newArr[i][1]]+'님이 들어왔습니다.')
         }
         if(newArr[i][0] === 'Leave') {
-             str += `${newArr[i][2]} 님이 나갔습니다.`;
+             answer.push(nickNameSet[newArr[i][1]]+'님이 나갔습니다.')
         }   
     }
     
-    // console.log(str)
+    console.log(answer)
     
     return answer;
 }
 
+
+
 ```
+![Screenshot 2021-06-20 194914](https://user-images.githubusercontent.com/40842018/122671231-9cf3fa00-d200-11eb-90ef-62b1d7774505.png)
 
 
