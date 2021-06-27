@@ -54,7 +54,10 @@ function solution(name) {
     
 }
 ```
-완벽하게 못풀음 테스트 케이스에서 절반만 맞음
+현재 완벽하게 못풀음 테스트 케이스에서 절반만 맞음
+![image](https://user-images.githubusercontent.com/43168019/123542545-223d5880-d785-11eb-9a2a-a6b07589af53.png)
+
+
 
 # yeu 
 ```javascirpt
