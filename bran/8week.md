@@ -13,41 +13,57 @@ function solution(inja1, inja2) {
 ```
 
 https://programmers.co.kr/learn/courses/30/lessons/12926
+
 ```javascript
+
+// output 'BC', expected BC
+// output'a', expected A
+// output: EPD, expected 'e F d'
+
 function solution(s, n) {
     var answer = '';
+    let uniCode;
+    let newArr = []
     let startNum = 65;
+    let max = 90;
     let first = s.split('')[0];
-    let allLength = s.split(" ").join("").split('').length;
-    
-    console.log(allLength)
+    let allLength = s.split(" ").join("").split('');
     
     // a,b,c,d,e,f,g
     // String.charCodeAt() // "A" ~ 90 'Z'
+    // 1. iterate to get the first char's unicode 
+    for(let i=0; i<=allLength.length-1; i++) {
+        
+        uniCode = allLength[i].toUpperCase().charCodeAt() + n;
+                
+
+        if(uniCode > 90) {
+           uniCode = startNum + (uniCode-max) -1 
+        }
+        //console.log(uniCode)
+        
+        // 
+        let toStr = String.fromCharCode(uniCode);
+        
+        
+        
+        
+        // 3. iterate for each str
+        for (let i=0; i<toStr.length; i++) {
+            newArr.push(toStr[i])
+        }
+    }
     
-    // 1. Find the first letter of "s"
-    let firstLetter = first.toUpperCase();
+       
+    
+     console.log (newArr.join(''))
+    
+    
      
-    // 2. add up n's number in unicode
-    let uniCode = firstLetter.charCodeAt();
-    let referNum = (uniCode + n)
-    if(referNum>90) {
-        referNum = startNum
-    }
-    
-    let following = (String.fromCharCode(referNum))
-    // 3. print out based on the length of s
-    
-    // 4. upper/lower 
-    if(first === first.toUpperCase()) {
-        console.log(following.toUpperCase())
-    } else {
-        console.log(following.toLowerCase())
-    }
-    
-    
     return answer;
 }
+
+
  
  
 ```
