@@ -21,6 +21,8 @@ function solution(inja1, inja2) {
 ### https://programmers.co.kr/learn/courses/30/lessons/12926
 
 ```js
+// 다시 푸는 문제인데도 혼자 못 풀었네요.. ASCII코드 ㅠㅠ
+
 const solution = (str, n) => {
   var ascVal = 0;
   return str
