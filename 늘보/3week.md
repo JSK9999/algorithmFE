@@ -3,6 +3,7 @@
 ### https://yeu.kr/rDFKX#js
 
 ```js
+// 다른 사람의 풀이를 봤습니다. 혼자 못 풀었음.
 function solution(object, path) {
   return path.reduce((obj, path) => obj[path] || '', object) || undefined;
 }
