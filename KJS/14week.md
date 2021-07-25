@@ -34,7 +34,7 @@ function solution (people,times){
 //이건 평균값이 크다는거니까 평균값을 내려줘야지 - middleTime으로 연산을 하니까 
 
 // -- 로 하면 core dumped 오류 뜸; 너무 많이 돌려서 그런가봄 
-//이진 탐색이니까 중간값 
+//이진 탐색이니까 중간값 국룰로 해줘야 할듯
     maxTime = middleTime -1 ;
   }else {
     minTime = middleTime+1;
