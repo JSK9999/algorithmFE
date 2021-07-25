@@ -1,4 +1,4 @@
-#프로그래머스 -입국심사
+# 프로그래머스 -입국심사
 
 ```javascript
 function solution (people,times){
