@@ -51,7 +51,7 @@ const convertAnswer =answer.sort(function(a,b){
 
 ![image](https://user-images.githubusercontent.com/43168019/126888926-dab6bee6-22e7-4121-9c7a-08925318be48.png)
 
-# yeu JSON -> YAML 변환 
+# yeu - JSON -> YAML 변환 
 ```javascript 
 
 function solution(json) {
