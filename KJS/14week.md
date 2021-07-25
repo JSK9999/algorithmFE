@@ -9,7 +9,7 @@ function solution (people,times){
   const minMaxTimeArr = times.sort(function(a,b){
     return a-b;
   })
-  let minTime  = 1; 
+  let minTime  = minMaxTimeArr[0]; 
   let maxTime = people * minMaxTimeArr[minMaxTimeArr.length -1];
 
   let answer= []
