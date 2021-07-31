@@ -56,5 +56,30 @@ function solution(n) {
     
     console.log(result);
 }
+
+// 시도 후, 구글링 찬스썻습니다 ㅠ
+
+function solution(n) {
+    var answer = '';
+    // 124나라에서는 모든 수를 1,2,4만 사용 
+
+    // 1,4,7,10
+    // 1,11,21,41,
+    
+    while(n>0) {
+        if(n%3 === 0) { // 3,6,9,12
+            answer = '4' + answer; 
+            n = n/3 -1;
+        } else if (n%3 === 1) { // 1,4,7,10
+            answer = '1' + answer;
+            n = Math.floor(n / 3);
+        } else { // 2,5,8,11
+            answer = '2'+answer;
+            n = Math.floor(n / 3);
+        }
+    }
+    
+    return answer
+ } 
  
 ```
