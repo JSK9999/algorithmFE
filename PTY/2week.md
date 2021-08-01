@@ -1,6 +1,6 @@
 #yeu
 
-
+```javascript
 // 여기에 코드를 작성해주세요
 let container = document.querySelector('#container');
 let btn = document.getElementsByTagName("button")[0];
@@ -17,4 +17,4 @@ btn.onclick = function(){
       textResult.style.color="red";
    }
 };
-
+```
