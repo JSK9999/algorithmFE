@@ -47,3 +47,21 @@ function solution(n) {
 ```
 ![image](https://user-images.githubusercontent.com/43168019/127767413-5e4aa063-1eb6-46d3-8bba-2cd1f7bd5157.png)
 
+
+
+# yeu https://yeu.kr/ZM7Ys#js
+
+```javascript 
+function solution(str) {
+   // RegExp, String, Array 관련 내장함수는 사용할 수 없습니다
+   //정규식 안대고 문자열안대고 배열안대고 ;;
+   let answer = '';
+  for(let i = 0; i<str.length; i++){
+     if(str[i] !== " "){
+        answer = answer + str[i];
+     }
+  }
+  
+   return answer;
+}
+```
