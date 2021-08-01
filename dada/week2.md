@@ -5,7 +5,7 @@ let container = document.querySelector('#container');
 let btn = document.querySelector('button');
 let textColor = document.getElementById('text');
 
-btn.onclick = function(){
+btn.onclick = () => {
    if(textColor.style.color == 'red'){
       textColor.style.color = 'blue';
    }
