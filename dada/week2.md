@@ -12,5 +12,7 @@ btn.onclick = () => {
    else{
       textColor.style.color = 'red';
    }
+   
+   //textColor.style.color  = getComputedStyle(textColor.color == 'rgb(255, 0, 0)' ? 'rgb(0, 0, 255)' : 'rgb(255, 0, 0)';
 }
 ```
