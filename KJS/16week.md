@@ -61,9 +61,7 @@ function solution(places) {
     let result = [];
     for(let i = 0; i<places.length; i++){
         const matrix =places[i].map(place => place.split(''))
-        //matirx로 만들었으니 이제 p인 녀석의 행렬 좌표값을 구하면 될듯 
-        //2차원 배열 
-        //forEach안에서 filter를 ? 해서 P의 인덱스 번호를 구해야하나 
+        //matirx로 만들었으니 이제 p인 녀석의 행렬 좌표값
         matrix.forEach((element,indexX) => element.filter((state,indexY)=>{
             if(state ==='P'){
                 positionArray.push([indexX,indexY])//행열은 구분이 되야할것같음
