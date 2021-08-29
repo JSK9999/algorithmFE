@@ -18,6 +18,31 @@ https://programmers.co.kr/learn/courses/30/lessons/72410?fbclid=IwAR2q_p9BlDKuyl
 ```javascript
 function solution(new_id) {
     var answer = '';
+    // 1. to lower case
+    let lowerId = new_id.toLowerCase();
+    
+    // RegExr 
+    // 2. Remove everything except a-z, -, _, . 
+    let formatted = lowerId.replace(/[^A-Za-z;]/g, "");
+    // 3. (.) is there more than 2 times, 
+    
+    // 4. remove (.) if its very first or last
+    for(let i of formatted) {
+        if(i === '.') {
+            i.replace()
+        }
+    }
+    
+    console.log(formatted)
+    
+    
+    // 5. if(new_id.length === 0) new_id === "a"
+    
+    
+    // 6. if (new_id.length >= 16) remove above 15.
+    // remove (.) if its very first or last
+    
+    // 7.while(new_id.length =< 2) new_id === 3
     return answer;
 }
 
