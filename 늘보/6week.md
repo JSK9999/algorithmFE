@@ -1,6 +1,6 @@
 ## 문자열의 앞, 뒤 공백을 없애보자
 
-### //https://yeu.kr/4TWp0#js
+### https://yeu.kr/4TWp0#js
 
 ```js
 function solution(str) {
