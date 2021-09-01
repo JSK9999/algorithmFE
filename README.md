@@ -10,7 +10,7 @@
 
 
 ## 앞으로 늘릴 스택 및 기술
- + KJS - D3.js- , Vue decorater pattern (feat. Nuxt)
+ + KJS - D3.js-charts , Vue decorater pattern (feat. Nuxt)
  + 늘보 - 
  + Bran
  + 섭형
