@@ -1,4 +1,5 @@
 # 프로그래머스 2021 KAKAO BLIND RECRUITMENT > 신규아이디 추천
+https://programmers.co.kr/learn/courses/30/lessons/72410
 
 ###### 피곤해서 대충풀었습니다 ㅠ
 ```javascript
