@@ -1,5 +1,6 @@
 # 프로그래머스 2021 KAKAO BLIND RECRUITMENT > 신규아이디 추천
 
+###### 피곤해서 대충풀었습니다 ㅠ
 ```javascript
 function solution(new_id) {
     const specialWord = [
