@@ -95,3 +95,18 @@ function solution(new_id) {
 ![image](https://user-images.githubusercontent.com/43168019/131701056-40af93ce-9d94-46f9-9193-8716eb225f07.png)
 
 
+# yeu API 통신을 해보자 
+
+https://yeu.kr/sVhYw#js
+
+```javascript 
+async function solution(url, key) {
+   // 여기에 코드를 작성해주세요
+    const response = await fetch(url,
+  {
+    method: 'GET',
+  });
+  const data = await response.json()
+  return data[key]
+}
+```
