@@ -28,7 +28,7 @@ function solution(classname, list) {
 
 ```
 
-## 도움 될 만한 자료 
+## 도움 될 만한 추가 자료 
 ```javascript 
 class Foo {
   x = 1;            // Field declaration
